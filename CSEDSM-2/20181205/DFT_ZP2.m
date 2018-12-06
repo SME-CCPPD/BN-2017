@@ -12,7 +12,7 @@ amp = 1;
 f = 150;
 w = 2*pi*f;
 
-y0 = 1 + amp*cos(w*T);
+y0 = amp*cos(w*T);
 
 wsize = 761;
 bsize = fc / wsize;
