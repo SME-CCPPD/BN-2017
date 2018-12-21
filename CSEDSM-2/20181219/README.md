@@ -1,3 +1,19 @@
+# CSEDSM II - Lezione del 19 dicembre 2018
+
+## Argomenti
+
+* Ricostruzione degli sms-tools con `matlab`/`octave`:
+  * elucubrazioni sul rescaling delle finestre *à la Serra*
+
+## Lavagne
+
+![whiteboard 1](./BN_II_CSEDSM_2_2018-12-19_11.05.35_1.jpg)
+
+## Esempi `matlab`/`octave`:
+
+[rescaling delle finestre](./window_scaling.m)
+
+```matlab
 close all
 clear all
 pkg load signal
@@ -42,3 +58,13 @@ bhFFT = 20 * log10(abs(fft(fftshift(bh), fftwsize))*bhF);
 F = [-fftwsize/2: fftwsize/2 - 1];
 plot(F, fftshift(boxcarFFT), ";boxcar;", F, fftshift(hannFFT), ";hanning;", F, fftshift(hammFFT), ";hamming;", F, fftshift(blackFFT), ";blackman;", F, fftshift(bhFFT), ";blackman-harris;")
 axis([-512 512 -150 5])
+```
+
+Questo codice produce i seguenti grafici:
+
+![confronto tra finestre (dominio del tempo)](./confronto_finestre.jpg)
+
+![confronto fra i rescaling](./confronto_rescaling.jpg)
+
+![confronto fft finestre](./confronto_fft_finestre.jpg]
+
