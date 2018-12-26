@@ -72,5 +72,5 @@ Questo codice produce i seguenti grafici:
 
 *Confronto tra gli spettri delle finestre*
 
-![confronto fft finestre](./confronto_fft_finestre.jpg]
+![confronto fft finestre](./confronto_fft_finestre.jpg)
 
