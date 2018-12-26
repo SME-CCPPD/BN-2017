@@ -62,9 +62,15 @@ axis([-512 512 -150 5])
 
 Questo codice produce i seguenti grafici:
 
+*Confronto tra le finestre nel dominio del tempo*
+
 ![confronto tra finestre (dominio del tempo)](./confronto_finestre.jpg)
 
+*Confronto tra i fattori di rescaling*
+
 ![confronto fra i rescaling](./confronto_rescaling.jpg)
+
+*Confronto tra gli spettri delle finestre*
 
 ![confronto fft finestre](./confronto_fft_finestre.jpg]
 
