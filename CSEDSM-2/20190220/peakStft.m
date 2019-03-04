@@ -30,4 +30,4 @@ while (idx + M) < length(y)
 	k += 1;
 end
 
-plot([0:882], peakF(:, 1:883), '.')
+plot([0:882], peakF(:, 1:883), '*')

@@ -38,9 +38,9 @@ for k = 1:length(F)-2
 	endif
 endfor
 
-%plot(F, magYth(1: N/2),[pX.freq], [pX.mag], '+');
 hold on
 
 stem(F, magYth(1: N/2)-th)
 plot([pX.freq], [pX.mag]-th, '+')
 axis([0 500 ])
+hold off
