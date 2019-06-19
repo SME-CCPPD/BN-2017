@@ -14,7 +14,7 @@ class Granulatore:
 		cur = 0
 		res = [];
 		while (cur < self.fileaudio.dur):
-			res.append(Grano(self.fileaudio.idx, cur, self.grain_dur, self.window, self.overlap))
+			res.append(Grano(self.fileaudio, cur, self.grain_dur, self.window, self.overlap))
 			cur += step
 		return res
 
