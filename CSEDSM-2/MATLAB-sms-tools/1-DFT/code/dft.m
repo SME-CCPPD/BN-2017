@@ -1,10 +1,3 @@
-## DFT - Discrete Fourier transform
-
-<p align="center">
-  <img src="img/dft_equation.png">
-</p>
-
-```matlab
 close all
 clear all
 
@@ -45,11 +38,3 @@ title('pha')
 axis([0 fs/2])
 xlabel('Hz')
 ylabel('ang')
-
-```
-<p align="center">
-  <img src="img/dft_plot.png">
-</p>
-
-
-
