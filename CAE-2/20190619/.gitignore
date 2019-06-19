@@ -1,2 +1,5 @@
 out.wav
 output.sco
+__pycache__
+*.swp
+*.pyc
