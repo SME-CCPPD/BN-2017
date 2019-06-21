@@ -1,0 +1,30 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\begin{document}
+\noindent
+\Huge{\textbf{DFT} - \textit{Discrete Fourier Transform}}
+\normalsize
+\newline
+\newline
+\\
+\newline
+\textbf{Equation}
+\begin{equation}
+X[k] = \displaysytle\sum_{n=0}^{N-1} x[n]e^{-i2\pi Kn/N} \ \ \ k = 0, \dots, N-1
+\end{equation}
+where:
+\begin{itemize}
+\item $x$ = input signal 
+\item $N$ = number of sample of signal $x$ 
+\item $n$ = index of samples $N$
+\item $X$ = analysed signal
+\item $k$ = index of frequencies $K$
+\item $\omega$ = angular velocity of frequency $k$, $ 2\pi kn$
+\item $-i2\pi kn/N$ = complex sinusoid of frequency $k$
+\end{itemize}
+
+\end{document}
