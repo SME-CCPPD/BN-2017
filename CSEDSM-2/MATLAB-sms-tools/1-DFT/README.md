@@ -1,19 +1,18 @@
 # DFT - Discrete Fourier transform
-## *trasformata discreta di Fourier*
+## *Trasformata Discreta di Fourier*
 
-## **Equzione**
+#### **Equzione**
 
 <p align="center">
   <img src="img/dft_equation.png">
 </p>
 
-## Dove:
+#### Dove:
 * *x* è il segnale d'ingresso;
 * *N* è il numero di sample nel segnale *x*. Quindi *n* è l'*n*-esimo sample di *x*;
 * *X* è l'analisi risultante del segnale *x*; Quindi sarà *x* nel dominio della frequenza;
 * *k* è l'indice di frequenza;
 * <img src="img/dft_sine.jpg"> è il coniugato complesso della sinusoide a frequenza *k*;
-
 
 ```matlab
 close all
