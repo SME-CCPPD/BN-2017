@@ -8,7 +8,7 @@ N = 4096;
 
 wind = [boxcar(M), triang(M), hanning(M), hamming(M), blackmanharris(M)];
 
-wName = {'rectangular', 'triangular', 'hamming', 'hamming', 'blackmanharris'}
+wName = {'rectangular', 'triangular', 'hamming', 'hamming', 'blackmanharris'};
 
 hN = N/2;
 hM1 = floor(M/2);
