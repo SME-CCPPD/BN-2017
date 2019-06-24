@@ -1,8 +1,8 @@
 # Zero Padding, Zero Phasing, Windowing
 
 ## Zero Padding 
-#### Attraverso lo **zero padding** è possibile effettuare un'interpolazione dello spettro ricavaqto dalla **DFT**.
-#### Lo **zero padding** viene realizzato aggiungendo zeri all'inizio e alla fine del segnale analizzato
+#### La tecnica dello **zero padding** consiste nello estendere il segnale con degli zeri, all'inizio e alla fine di questo.<br/> 
+Quindi si mapperà **M** samples del nostro segnale **x** in **N > M** samples.
 
 ```matlab
 close all
