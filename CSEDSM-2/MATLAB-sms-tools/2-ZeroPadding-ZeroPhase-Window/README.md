@@ -1,8 +1,8 @@
 # Zero Padding, Zero Phasing, Windowing
 
 ## Zero Padding 
-#### La tecnica dello **zero padding** consiste nello estendere il segnale con degli zeri, all'inizio e alla fine di questo.<br/> 
-Quindi si mapperà **M** samples del nostro segnale **x** in **N > M** samples.
+#### La tecnica dello *zero padding* consiste nello estendere il segnale con degli zeri, all'inizio e alla fine di questo.<br/> 
+Quindi si mapperà *M* samples del nostro segnale *x* in *N > M* samples.
 
 ```matlab
 close all
@@ -50,3 +50,5 @@ hold off
 <p align="center">
   <img src="img/zeroPadding.png">
 </p>
+
+## Windowing
