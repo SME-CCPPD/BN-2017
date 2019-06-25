@@ -2,7 +2,7 @@ close all
 clear all
 pkg load signal
 
-[x, fs] = audioread('../sounds/piano.wav');
+[x, fs] = audioread('../../sounds/piano.wav');
 
 M = 511;
 N = 1024;
@@ -37,9 +37,12 @@ F = [0:fs/N:fs-fs/N];
 subplot(3, 1, 1)
 plot(fftBuffer)
 axis([0 N])
+title('segnale nel tempo')
 subplot(3, 1, 2)
 plot(F, magX)
 axis([0 F(N/2)])
+title('mag')
 subplot(3, 1, 3)
 plot(F, phaX)
 axis([0 F(N/2)])
+title('fasi')
