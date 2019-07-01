@@ -1,9 +1,11 @@
 # STFT - Short Time Fourier Transform
 #### La *Short Time Fourier Transform* è un potente strumento per che permette di determinare l'andamento del coneuto spettrale nel tempo.<br/> 
 #### **Equazione**
+
 <p aling='center'>
 	<img src='img/stft_equation.png'>
 </p>
+
 #### Dove:
 * *w* è la finestra di analisi;
 * *l* è il frame analizzato;
