@@ -2,7 +2,8 @@
 
 ## Zero Padding 
 #### La tecnica dello *zero padding* consiste nello estendere il segnale con degli zeri, all'inizio e alla fine di questo.<br/> 
-Quindi si mapperà *M* samples del nostro segnale *x* in *N > M* samples.
+Quindi si mapperà *M* samples del nostro segnale *x* in *N > M* samples. <br/>
+Attraverso questa tecnica è possibile ottenere l'interpolazione dello spettro.
 
 ```matlab
 close all
