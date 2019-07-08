@@ -14,9 +14,9 @@
 * *b* è l'*offset*
 
 #### L'*interpolazione parabolica* viene effettuata a partire dai campioni più alti del picco:
-* <img src'img/point1.png'> 
-* <img src'img/point2.png'> 
-* <img src'img/point3.png'> 
+* <img src='img/point1.png'> 
+* <img src='img/point2.png'> 
+* <img src='img/point3.png'> 
 
 <p aling='center'>
 	<img src='img/parabola_point.png'>
