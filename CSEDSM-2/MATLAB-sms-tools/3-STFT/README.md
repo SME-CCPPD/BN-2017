@@ -1,5 +1,6 @@
 # STFT - Short Time Fourier Transform
-#### La *Short Time Fourier Transform* è un potente strumento per che permette di determinare l'andamento del coneuto spettrale nel tempo.<br/> 
+
+#### La *Short Time Fourier Transform* è un potente strumento che permette di determinare l'andamento del coneuto spettrale nel tempo.<br/> 
 #### **Equazione**
 
 <p aling='center'>
@@ -10,6 +11,7 @@
 * *w* è la finestra di analisi;
 * *l* è il frame analizzato;
 * *H* è l'*Hopsize*	
+
 #### In prtatica il segnale viene diviso in frame, ciascuno distanti di un *hopsize*(*H*) calcolato in sample. Ogni frame viene analizzato per mezzo della *DFT*.
 
 ```matlab

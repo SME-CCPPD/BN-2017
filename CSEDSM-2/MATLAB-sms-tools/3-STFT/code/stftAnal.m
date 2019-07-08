@@ -3,7 +3,7 @@ clear all
 
 pkg load signal
 
-[x, fs] = audioread('../sounds/piano.wav');
+[x, fs] = audioread('../../sounds/piano.wav');
 
 N = 2048;
 M = 511;
