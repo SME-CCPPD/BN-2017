@@ -3,7 +3,7 @@
 #### Attraverso la *Peak Detection* è possibile localizzare i picchi nello spettro di un segnale. Vengono solitamente identificati i picchi sopra un soglia di *threshold* determinata. 
 
 <p aling='center'>
-	<img src='img/pd_equation.png'>
+	<img src='img/pd_equation.jpg'>
 </p>
 
 ### Dove:
@@ -14,7 +14,7 @@
 #### Questa tecnica viene solitamente utilizzata con il fine di ottenere le informazioni necessarie per ricostruire il segnale originale. Con la *Peak Detection* è possibile ricostruire il segnale attraverso il *modello sinusoidale* con il quale si sostituisce ogni picco con un'onda sinusoidale.
 
 <p aling='center'>
-	<img src='img/sm_equation.png'>
+	<img src='img/sm_equation.jpg'>
 </p>
 
 ```matlab
