@@ -1,9 +1,6 @@
 # PEAK MATCHING
 
-#### Fino ad ora si è vista l'estrazione dei picchi per un unico frame. Se si vuole ricostruire il segnale nel tempo attraverso il *modello sinusoidale* (per il quale ogni picco estratto viene rigenerato da un onda sinusoidale), l'estrazione dei picchi deve essere effettuata per ogni frame.</br>
-Per questo scopo bisogna tracciare l'anadamento dei picchi e quindi accoppiarli frame dopo frame. Questo viene fatto a seconda delle posizioni di ciascun picco, sia nel tempo che nella frequenza. Pertanto se un picco ha una frequenza ravvicinata (all'interno di un range stabilito) a quello precedente (anche in questo caso la distanza temporale tra picco e picco viene scelta attraverso un grado di tolleranza), questi vengono accoppiati. Questo procedimento viene eseguito per ogni frame fino ad arrivare a tracciare diversi andamenti di picchi.</br>
-
-#### Un esempio di *peak matching* con matlab è come segue:
+#### Fino ad ora si è vista l'estrazione dei picchi per un unico frame. Se si vuole ricostruire il segnale nel tempo attraverso il *modello sinusoidale* (per il quale ogni picco estratto viene rigenerato da un onda sinusoidale), l'estrazione dei picchi deve essere effettuata per ogni frame.</br> Per questo scopo bisogna tracciare l'anadamento dei picchi e quindi accoppiarli frame dopo frame. Questo viene fatto a seconda delle posizioni di ciascun picco, sia nel tempo che nella frequenza. Pertanto se un picco ha una frequenza ravvicinata (all'interno di un range stabilito) a quello precedente (anche in questo caso la distanza temporale tra picco e picco viene scelta attraverso un grado di tolleranza), questi vengono accoppiati. Questo procedimento viene eseguito per ogni frame fino ad arrivare a tracciare diversi andamenti di picchi.</br>
 
 ```matlab
 clear all
